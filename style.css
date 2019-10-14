@@ -832,6 +832,10 @@ ul {
     font-size: 16px;
 }
 
+.text-dark {
+    color: black !important;
+}
+
 .primary-btn {
     display: inline-block;
     height: 40px;
@@ -2108,7 +2112,7 @@ ul {
 #rs-slider .slide-content .sl-readmore-btn:hover {
     background-color: #ffc107;
     border-color: #ffc107;
-    color: rgba(255, 255, 255, 0.8);
+    color: black !important;
 }
 
 #rs-slider .slide-content .sl-get-started-btn {
