@@ -714,11 +714,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .btn_six {
-  background: #17c7bd;
+  background: white;
   font-size: 15px;
-  border: 1px solid #17c7bd;
+  border: 1px solid #0077b5;
   padding: 13px 35px;
-  color: #fff;
+  color: #0077b5 !important;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -727,12 +727,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .btn_six:hover {
   background: #ebfaf9;
-  color: #17c7bd;
+  color: white !important;
 }
 
 .btn_six + .btn_six {
-  background: #ebfaf9;
-  color: #17c7bd;
+  background: #0077b5;
+  color: white !important;
   margin-left: 20px;
 }
 
@@ -741,8 +741,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .btn_six + .btn_six:hover {
-  background: #17c7bd;
-  color: #fff;
+  background: white;
+  color: #0077b5 !important;
 }
 
 .seo_btn {
@@ -4067,7 +4067,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .startup_banner_area_three {
   min-height: 100vh;
-  background: #17c7bd;
+  background: #3f51b5;
   position: relative;
   z-index: 1;
   display: -webkit-box;
@@ -10695,7 +10695,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .stratup_testimonial_info:before {
   content: "";
-  background: url("../img/new/testimonial_bg.png") no-repeat scroll center 0/contain;
+  background: url("../img/new/testimonial_bg_two.png") no-repeat scroll center 0/contain;
   width: 100%;
   height: 100%;
   top: 0;
@@ -10895,7 +10895,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*============ seo_fact_area css ===========*/
 .seo_fact_area {
-  background: #f9f7fd;
+  background: white;
   position: relative;
 }
 
@@ -20657,7 +20657,7 @@ a .h_head:hover {
 }
 
 .menu_two .w_menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link, .menu_two .w_menu > .nav-item.submenu .dropdown-menu .nav-item:focus > .nav-link, .menu_two .w_menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link, .nav_right_btn .login_btn.active, .header_area.navbar_fixed .menu_two .nav_right_btn .login_btn.active, .header_area.navbar_fixed .menu_two .nav_right_btn .login_btn:hover, .slider_btn {
-  color: #00aff0;
+  color: #ffffff;
 }
 
 .header_area.navbar_fixed .menu_two .nav_right_btn .login_btn.active, .header_area.navbar_fixed .menu_two .nav_right_btn .login_btn:hover {
@@ -20665,7 +20665,8 @@ a .h_head:hover {
 }
 
 .header_area.navbar_fixed .menu_two .nav_right_btn .login_btn.active:hover, .slider_btn:hover, .price_tab .hover_bg, .f_widget.about-widget .f_list li a:before {
-  background: #00aff0;
+  background: #0077B5;
+  color: white;
 }
 
 .startup_tab .nav-item:nth-child(1) .icon {
