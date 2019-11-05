@@ -124,6 +124,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .container.custom_container {
   max-width: 1520px;
+  padding-top: 150px;
 }
 
 .f_size_50 {
@@ -2132,7 +2133,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .header_area_two + section, .header_area_three + section {
-  margin-top: 93px;
+  /* margin-top: 93px; */
 }
 
 .h_dark {
