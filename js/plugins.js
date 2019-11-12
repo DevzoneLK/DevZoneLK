@@ -1,38 +1,147 @@
-// Avoid `console` errors in browsers that lack a console.
-(function() {
-    var method;
-    var noop = function () {};
-    var methods = [
-        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
-        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
-        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
-        'timeline', 'timelineEnd', 'timeStamp', 'trace', 'warn'
-    ];
-    var length = methods.length;
-    var console = (window.console = window.console || {});
-
-    while (length--) {
-        method = methods[length];
-
-        // Only stub undefined methods.
-        if (!console[method]) {
-            console[method] = noop;
-        }
-    }
-}());
-
-// Place any jQuery/helper plugins in here.
-
 /*!
- * scrollup v2.4.1
- * Url: http://markgoodyear.com/labs/scrollup/
- * Copyright (c) Mark Goodyear — @markgdyr — http://markgoodyear.com
- * License: MIT
- */
-!function(l,o,e){"use strict";l.fn.scrollUp=function(o){l.data(e.body,"scrollUp")||(l.data(e.body,"scrollUp",!0),l.fn.scrollUp.init(o))},l.fn.scrollUp.init=function(r){var s,t,c,i,n,a,d,p=l.fn.scrollUp.settings=l.extend({},l.fn.scrollUp.defaults,r),f=!1;switch(d=p.scrollTrigger?l(p.scrollTrigger):l("<a/>",{id:p.scrollName,href:"#top"}),p.scrollTitle&&d.attr("title",p.scrollTitle),d.appendTo("body"),p.scrollImg||p.scrollTrigger||d.html(p.scrollText),d.css({display:"none",position:"fixed",zIndex:p.zIndex}),p.activeOverlay&&l("<div/>",{id:p.scrollName+"-active"}).css({position:"absolute",top:p.scrollDistance+"px",width:"100%",borderTop:"1px dotted"+p.activeOverlay,zIndex:p.zIndex}).appendTo("body"),p.animation){case"fade":s="fadeIn",t="fadeOut",c=p.animationSpeed;break;case"slide":s="slideDown",t="slideUp",c=p.animationSpeed;break;default:s="show",t="hide",c=0}i="top"===p.scrollFrom?p.scrollDistance:l(e).height()-l(o).height()-p.scrollDistance,n=l(o).scroll(function(){l(o).scrollTop()>i?f||(d[s](c),f=!0):f&&(d[t](c),f=!1)}),p.scrollTarget?"number"==typeof p.scrollTarget?a=p.scrollTarget:"string"==typeof p.scrollTarget&&(a=Math.floor(l(p.scrollTarget).offset().top)):a=0,d.click(function(o){o.preventDefault(),l("html, body").animate({scrollTop:a},p.scrollSpeed,p.easingType)})},l.fn.scrollUp.defaults={scrollName:"scrollUp",scrollDistance:300,scrollFrom:"top",scrollSpeed:300,easingType:"linear",animation:"fade",animationSpeed:200,scrollTrigger:!1,scrollTarget:!1,scrollText:"Scroll to top",scrollTitle:!1,scrollImg:!1,activeOverlay:!1,zIndex:2147483647},l.fn.scrollUp.destroy=function(r){l.removeData(e.body,"scrollUp"),l("#"+l.fn.scrollUp.settings.scrollName).remove(),l("#"+l.fn.scrollUp.settings.scrollName+"-active").remove(),l.fn.jquery.split(".")[1]>=7?l(o).off("scroll",r):l(o).unbind("scroll",r)},l.scrollUp=l.fn.scrollUp}(jQuery,window,document);
+Mailchimp Ajax Submit
+jQuery Plugin
+Author: Siddharth Doshi
 
+Use:
+===
+$('#form_id').ajaxchimp(options);
 
+- Form should have one <input> element with attribute 'type=email'
+- Form should have one label element with attribute 'for=email_input_id' (used to display error/success message)
+- All options are optional.
 
+Options:
+=======
+options = {
+    language: 'en',
+    callback: callbackFunction,
+    url: 'http://blahblah.us1.list-manage.com/subscribe/post?u=5afsdhfuhdsiufdba6f8802&id=4djhfdsh99f'
+}
 
+Notes:
+=====
+To get the mailchimp JSONP url (undocumented), change 'post?' to 'post-json?' and add '&c=?' to the end.
+For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsiufdba6f8802&id=4djhfdsh99f&c=?',
+*/
 
+(function ($) {
+    'use strict';
 
+    $.ajaxChimp = {
+        responses: {
+            'You are sent to a welcome message and will be being sent our latest newsletters time to time'                                             : 0,
+            'Please enter a value'                                                              : 1,
+            'An email address must contain a single @'                                          : 2,
+            'The domain portion of the email address is invalid (the portion after the @: )'    : 3,
+            'The username portion of the email address is invalid (the portion before the @: )' : 4,
+            'This email address looks fake or invalid. Please enter a real email address'       : 5
+        },
+        translations: {
+            'en': null
+        },
+        init: function (selector, options) {
+            $(selector).ajaxChimp(options);
+        }
+    };
+
+    $.fn.ajaxChimp = function (options) {
+        $(this).each(function(i, elem) {
+            var form = $(elem);
+            var email = form.find('input[type=email]');
+            var label = form.find('label[for=' + email.attr('id') + ']');
+
+            var settings = $.extend({
+                'url': form.attr('action'),
+                'language': 'en'
+            }, options);
+
+            var url = settings.url.replace('/post?', '/post-json?').concat('&c=?');
+
+            form.attr('novalidate', 'true');
+            email.attr('name', 'EMAIL');
+
+            form.submit(function () {
+                var msg;
+                function successCallback(resp) {
+                    if (resp.result === 'success') {
+                        msg = 'You are sent to a welcome message and will be being sent our latest newsletters time to time.';
+                        label.removeClass('error').addClass('valid');
+                        email.removeClass('error').addClass('valid');
+                    } else {
+                        email.removeClass('valid').addClass('error');
+                        label.removeClass('valid').addClass('error');
+                        var index = -1;
+                        try {
+                            var parts = resp.msg.split(' - ', 2);
+                            if (parts[1] === undefined) {
+                                msg = resp.msg;
+                            } else {
+                                var i = parseInt(parts[0], 10);
+                                if (i.toString() === parts[0]) {
+                                    index = parts[0];
+                                    msg = parts[1];
+                                } else {
+                                    index = -1;
+                                    msg = resp.msg;
+                                }
+                            }
+                        }
+                        catch (e) {
+                            index = -1;
+                            msg = resp.msg;
+                        }
+                    }
+
+                    // Translate and display message
+                    if (
+                        settings.language !== 'en'
+                        && $.ajaxChimp.responses[msg] !== undefined
+                        && $.ajaxChimp.translations
+                        && $.ajaxChimp.translations[settings.language]
+                        && $.ajaxChimp.translations[settings.language][$.ajaxChimp.responses[msg]]
+                    ) {
+                        msg = $.ajaxChimp.translations[settings.language][$.ajaxChimp.responses[msg]];
+                    }
+                    label.html(msg);
+
+                    label.show(2000);
+                    if (settings.callback) {
+                        settings.callback(resp);
+                    }
+                }
+
+                var data = {};
+                var dataArray = form.serializeArray();
+                $.each(dataArray, function (index, item) {
+                    data[item.name] = item.value;
+                });
+
+                $.ajax({
+                    url: url,
+                    data: data,
+                    success: successCallback,
+                    dataType: 'jsonp',
+                    error: function (resp, text) {
+                        console.log('mailchimp ajax submit error: ' + text);
+                    }
+                });
+
+                // Translate and display submit message
+                var submitMsg = 'Submitting...';
+                if(
+                    settings.language !== 'en'
+                    && $.ajaxChimp.translations
+                    && $.ajaxChimp.translations[settings.language]
+                    && $.ajaxChimp.translations[settings.language]['submit']
+                ) {
+                    submitMsg = $.ajaxChimp.translations[settings.language]['submit'];
+                }
+                label.html(submitMsg).show(2000);
+
+                return false;
+            });
+        });
+        return this;
+    };
+})(jQuery);
