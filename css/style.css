@@ -2473,10 +2473,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .header_area.navbar_fixed .menu_six .btn_get {
-  border-color: #3d57f4;
+  border-color: #fff;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #3d57f4;
+  color: #fff;
 }
 
 .header_area.navbar_fixed .menu_six .btn_get:hover {

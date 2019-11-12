@@ -1455,7 +1455,7 @@
     }
     .menu{
         padding: 10px 30px;
-        background: #fff;
+        background: #051441;
         margin-top: 0px;
     }
     .menu_one .navbar-collapse {
@@ -1467,7 +1467,7 @@
         overflow-y: scroll;
         margin-left: 0px;
         margin-right: 0px;
-        background: #fff;
+        background: #051441;
     }
     .menu > .nav-item{
         margin-right: 0;
@@ -1577,8 +1577,8 @@
     }
     .header_area .menu_six .cus_dark {
         margin-left: 30px;
-        border-color: #3d64f4;
-        color: #3d64f4;
+        border-color: #ffffff;
+        color: #ffffff;
         display: inline-block;
         margin-bottom: 15px;
     }
@@ -1637,7 +1637,7 @@
         padding-top: 140px;
     }
     .menu_four .menu > .nav-item .nav-link,.menu_five .menu > .nav-item .nav-link,.menu_six .menu > .nav-item .nav-link,.menu_seven .menu .nav-item .nav-link{
-        color: #051441;
+        color: #ffffff;
     }
     .menu_five .menu > .nav-item:hover .nav-link,.menu_five .menu > .nav-item.active .nav-link{
         color: #3d64f4;
@@ -3298,7 +3298,7 @@
         display: none;
     }
     .h_features_item{
-        padding-right: 0;+
+        padding-right: 0;
     }
     .h_price_body .h_p_list .h_price_item{
         position: relative;
