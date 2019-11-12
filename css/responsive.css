@@ -1,9 +1,16 @@
-@media (min-width:2000px){
+@media (min-width:1651px){
     .call_action_area .action_one{
         left: 40px;
     }
     .erp_banner_area_two .animation_img{
         margin-top: -320px;
+    }
+    .saas_banner_area {
+        height: 100vh;
+    }
+
+    .xxl{
+        margin-top: -149px;
     }
 }
 @media(max-width:1650px){
@@ -164,6 +171,9 @@
 }
 
 @media (max-width:1450px){
+    .saas_banner_area{
+        height: 100vh;
+    }
     .app_banner_area{
         background-size: cover;
         padding-bottom: 100px;
@@ -362,6 +372,9 @@
 }
 
 @media (max-width:1199px){
+    .saas_banner_area{
+        height: 50vh;
+    }
     .s_service_item{
         padding: 50px 22px 40px;
     }
@@ -1100,6 +1113,9 @@
 
 
 @media (max-width:991px){
+    .agency_banner_img{
+        padding-bottom: 20px;
+    }
     .s_service_section {
         margin-top: 280px;
     }
@@ -1757,6 +1773,7 @@
     }
     .saas_banner_area{
         padding-top: 150px;
+        height: auto !important;
     }
     .prototype_content .btn_three{
         margin-top: 25px;   
@@ -3475,7 +3492,7 @@
         left: -878px;
     }
     .f_size_40{
-        font-size: 30px;
+        font-size: 25px;
     }
     .footer_area_two .footer_bottom p{
         margin-bottom: 8px !important; 
