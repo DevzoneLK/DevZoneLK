@@ -14,6 +14,9 @@
     }
 }
 @media(max-width:1650px){
+    .saas_banner_area{
+        height: 100vh;
+    }
     .about_content{
         padding: 100px 30px;
     }
@@ -47,6 +50,9 @@
     }
 }
 @media (max-width: 1550px){
+    .saas_banner_area{
+        height: 100vh;
+    }
     .s_features_item .s_features_img img{
         max-width: 100%;
     }
@@ -333,6 +339,9 @@
 }
 
 @media (max-width:1350px){
+    .saas_banner_area{
+        height: 100vh;
+    }
     .payment_banner_content {
         max-width: 556px;
     }
@@ -373,7 +382,7 @@
 
 @media (max-width:1199px){
     .saas_banner_area{
-        height: 50vh;
+        height: 100vh;
     }
     .s_service_item{
         padding: 50px 22px 40px;
