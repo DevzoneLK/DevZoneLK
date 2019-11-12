@@ -1865,11 +1865,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .menu_six .menu > .nav-item:hover .nav-link, .menu_six .menu > .nav-item.active .nav-link {
-  color: #3d57f4;
+  color: #fff001;
 }
 
 .menu_six .menu > .nav-item:hover .nav-link:before, .menu_six .menu > .nav-item.active .nav-link:before {
-  background: #3d57f4;
+  background: #fff001;
 }
 
 .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link, .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item:focus > .nav-link, .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link {
@@ -2461,15 +2461,15 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .header_area.navbar_fixed .menu_six .menu > .nav-item:hover > .nav-link, .header_area.navbar_fixed .menu_six .menu > .nav-item.active > .nav-link {
-  color: #3d57f4;
+  color: #fff001;
 }
 
 .header_area.navbar_fixed .menu_six .menu > .nav-item:hover > .nav-link:before, .header_area.navbar_fixed .menu_six .menu > .nav-item.active > .nav-link:before {
-  background: #3d57f4;
+  background: #fff001;
 }
 
 .header_area.navbar_fixed .menu_six .menu_toggle .hamburger-cross span, .header_area.navbar_fixed .menu_six .menu_toggle .hamburger span {
-  background: #3d57f4;
+  background: #fff001;
 }
 
 .header_area.navbar_fixed .menu_six .btn_get {
