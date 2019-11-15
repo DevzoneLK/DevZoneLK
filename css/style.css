@@ -1,4 +1,4 @@
-/*----------------------------------------------------
+dk_bg_one/*----------------------------------------------------
 @File: Default Styles
 @Author: Md. Shahadat Hussain
 @URL: https://themeforest.net/user/droitthemes
@@ -253,6 +253,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .dk_bg_two {
   background: #0f1029;
+}
+
+.popup_bg{
+  background: #0e044b;
 }
 
 .seo_title_color {
@@ -1855,7 +1859,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .menu_five .menu_toggle .hamburger span, .menu_five .menu_toggle .hamburger-cross span {
   background: #fff;
 }
-
+.form-action{
+  text-align: right;
+}
 .menu_six {
   padding: 0px;
 }
