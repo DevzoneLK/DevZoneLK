@@ -5541,7 +5541,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*============== agency_featured_area css =============*/
 .agency_featured_area {
-  padding-top: 160px;
+  padding-top: 180px;
 }
 
 .agency_featured_area_two {
@@ -11860,12 +11860,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .portfolio_filter_blue .work_portfolio_item.active, .portfolio_filter_blue .work_portfolio_item:hover {
-  color: #26c4e5;
+  color: #fff001;
 }
 
 .portfolio_filter_blue .work_portfolio_item.active:before, .portfolio_filter_blue .work_portfolio_item:hover:before {
   width: 100%;
-  background: #26c4e5;
+  background: #fff001;
 }
 
 .pr_btn {
