@@ -1,4 +1,4 @@
-dk_bg_one/*----------------------------------------------------
+/*----------------------------------------------------
 @File: Default Styles
 @Author: Md. Shahadat Hussain
 @URL: https://themeforest.net/user/droitthemes
@@ -246,7 +246,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .d_p_color {
-  color: #bdbed6;
+  color: #bdbed6 !important;
 }
 
 .bg_color {
@@ -5554,7 +5554,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*============== agency_featured_area css =============*/
 .agency_featured_area {
-  padding-top: 160px;
+  padding-top: 180px;
 }
 
 .agency_featured_area_two {
@@ -7280,7 +7280,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*============== software_service_area css =============*/
 .software_service_area {
-  background: #f9f9fc;
+  background: #090a21;
 }
 
 .software_service_tab {
@@ -7349,7 +7349,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .software_service_tab_content .software_service_item h5 {
   font: 600 17px/25px "Poppins", sans-serif;
-  color: #222d39;
+  color: #bdbed6 !important;
 }
 
 .software_service_tab_content .software_service_item p {
@@ -7495,8 +7495,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .app_service_item {
-  border: 1px solid #f4f4f9;
-  background-color: white;
+  /* border: 1px solid #f4f4f9; */
   -webkit-box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
   box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
   padding: 50px;
@@ -7505,6 +7504,24 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transition: all 0.2s linear;
   margin-bottom: 30px;
   cursor: pointer;
+}
+
+.app_service_item_one{
+  background-image: -moz-linear-gradient(40deg, #290a59 0%, #3d57f4 100%);
+  background-image: -webkit-linear-gradient(40deg, #290a59 0%, #3d57f4 100%);
+  background-image: -ms-linear-gradient(40deg, #290a59 0%, #3d57f4 100%);
+}
+
+.app_service_item_two{
+  background-image: -moz-linear-gradient(40deg, #290a59 0%, #9C27B0 100%);
+  background-image: -webkit-linear-gradient(40deg, #290a59 0%, #9C27B0 100%);
+  background-image: -ms-linear-gradient(40deg, #290a59 0%, #9C27B0 100%);
+}
+
+.app_service_item_three{
+  background-image: -moz-linear-gradient(40deg, #290a59 0%, #673AB7 100%);
+  background-image: -webkit-linear-gradient(40deg, #290a59 0%, #673AB7 100%);
+  background-image: -ms-linear-gradient(440deg, #290a59 0%, #673AB7 100%);
 }
 
 .app_service_item .app_icon {
@@ -7566,8 +7583,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .app_service_area_two {
-  background: #f9f9fc;
-  padding: 120px 0px;
+  background: #0f1029;
+  padding: 180px 0px;
 }
 
 .app_service_area_two .app_service_info {
@@ -11856,12 +11873,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .portfolio_filter_blue .work_portfolio_item.active, .portfolio_filter_blue .work_portfolio_item:hover {
-  color: #26c4e5;
+  color: #fff001;
 }
 
 .portfolio_filter_blue .work_portfolio_item.active:before, .portfolio_filter_blue .work_portfolio_item:hover:before {
   width: 100%;
-  background: #26c4e5;
+  background: #fff001;
 }
 
 .pr_btn {
@@ -17942,7 +17959,7 @@ input[type="text"] {
 }
 
 .hosting_title .w_color {
-  color: #fff;
+  color: #fff !important;
 }
 
 .hosting_service_item {
