@@ -193,6 +193,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .l_height28 {
   line-height: 28px;
 }
+.l_height20{
+  line-height: 20px
+}
 
 .f_p {
   font-family: "Poppins", sans-serif;
@@ -225,6 +228,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .t_color {
   color: #051441;
+}
+.t_color4{
+  color:#fff001;
 }
 
 .w_color {
@@ -263,6 +269,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #263b5e;
 }
 
+.mt_10{
+  margin-top: 10px;
+}
 .mt_60 {
   margin-top: 60px;
 }
@@ -377,6 +386,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .pr_20 {
   padding-right: 20px;
+}
+
+.pr_10 {
+  padding-right: 10px;
 }
 
 .pt_150 {
@@ -13234,7 +13247,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #4b505e;
+  color: #fff001;
 }
 
 p {
@@ -13252,6 +13265,9 @@ p span {
 
 .bg-purpple {
   background: #6e3ef8;
+}
+.button-bg{
+  background: #fff;
 }
 
 .bg-blue {
@@ -20655,7 +20671,7 @@ a .h_head:hover {
 }
 
 .s_features_item.s_features_item_two .s_features_content .learn_btn:hover, .price_btn, .s_subcribes .btn-submit, .f_widget.about-widget .f_list li a:hover, .f_widget .widget-wrap p a:hover, .footer_bottom a, .menu > .nav-item:hover .nav-link, .menu > .nav-item.active .nav-link, .menu > .nav-item.submenu.mega_menu.mega_menu_two .mega_menu_inner .dropdown-menu .nav-item .item .text:hover, .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link, .menu > .nav-item.submenu .dropdown-menu .nav-item:focus > .nav-link, .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link, .footer_bottom a:hover {
-  color: #6754e2;
+  color: #fff001;
 }
 
 .w_menu .nav-item:hover .nav-link, .w_menu .nav-item.active .nav-link {
@@ -22890,7 +22906,7 @@ a .h_head:hover {
 
 .new_footer_top .f-title {
   margin-bottom: 30px;
-  color: #263b5e;
+  color: #fff001;
 }
 
 .new_footer_top .company_widget p {
