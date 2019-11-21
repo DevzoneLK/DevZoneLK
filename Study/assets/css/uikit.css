@@ -89,9 +89,9 @@
  * 3. Style
  */
     
-    :not(pre)>code,
-    :not(pre)>kbd,
-    :not(pre)>samp {
+     :not(pre)>code,
+     :not(pre)>kbd,
+     :not(pre)>samp {
         /* 1 */
         font-family: Consolas, monaco, monospace;
         /* 2 */
@@ -441,13 +441,13 @@
     /* Selection pseudo-element
  ========================================================================== */
     
-    ::-moz-selection {
+     ::-moz-selection {
         background: #39f;
         color: #fff;
         text-shadow: none;
     }
     
-    ::selection {
+     ::selection {
         background: #39f;
         color: #fff;
         text-shadow: none;
@@ -6506,7 +6506,7 @@
  * Activate slide-out animation
  */
     
-    :not(.uk-offcanvas-flip)>.uk-offcanvas-content-animation {
+     :not(.uk-offcanvas-flip)>.uk-offcanvas-content-animation {
         left: 270px;
     }
     
