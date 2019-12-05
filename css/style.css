@@ -136,6 +136,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .f_size_30 {
   font-size: 30px;
+  line-height: 50px;
 }
 
 .f_size_28 {
@@ -235,6 +236,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .w_color {
   color: #fff;
+}
+.y_color {
+  color:#fff001;
 }
 
 .t_color2 {
@@ -399,9 +403,15 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .pt_120 {
   padding-top: 40px;
 }
+.pt_20 {
+  padding-top: 20px;
+}
 
 .sec_pad {
-  padding: 120px 0px;
+  padding-top: 220px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 120px;
 }
 
 /*====================================================*/
@@ -5445,6 +5455,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .feature_info .feature_img.f_img_one {
+
   margin-left: -50px;
 }
 
@@ -5757,7 +5768,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border-top-left-radius: 45px;
   opacity: 0.302;
 }
-
 .square_box.box_one {
   background-image: -moz-linear-gradient(140deg, #290a59 0%, #3d57f4 100%);
   background-image: -webkit-linear-gradient(140deg, #290a59 0%, #3d57f4 100%);
@@ -5775,6 +5785,15 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   width: 235px;
   height: 235px;
   bottom: -116px;
+  left: 250px;
+}
+.square_box.box_two-2 {
+  background-image: -moz-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
+  background-image: -webkit-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
+  background-image: -ms-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
+  width: 235px;
+  height: 235px;
+  top: -116px;
   left: 250px;
 }
 
@@ -7583,7 +7602,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .app_service_area_two {
-  background: #0f1029;
+  background: #090a21;
   padding: 180px 0px;
 }
 
@@ -9688,8 +9707,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*============= fun_fact_area  css ==============*/
 .fun_fact_area {
-  padding-top: 150px;
-  padding-bottom: 110px;
+  padding-top: 220px;
+  padding-top: 20px;
+  padding-bottom: 0px;
   overflow: hidden;
 }
 
@@ -12210,6 +12230,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin: 0px;
   padding: 0px;
 }
+.contact_info {
+  padding:10px;
+  margin-top: 30px;
+  border: thick solid #fff001;
+
+}
 
 .app_contact_info {
   position: absolute;
@@ -13264,6 +13290,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #fff001;
+}
+.address h6 {
   color: #fff001;
 }
 
@@ -20811,7 +20840,7 @@ a .h_head:hover {
 }
 
 .section-1 .pp_triangle {
-  top: 150px;
+  top: 100px;
   left: 52%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -20855,22 +20884,22 @@ a .h_head:hover {
 }
 
 .round_line.one {
-  top: -230px;
+  top: -130px;
   right: -50px;
 }
 
 .round_line.two {
-  top: -430px;
+  bottom: -130px;
   right: -500px;
 }
 
 .round_line.three {
-  bottom: -188px;
+  bottom: -88px;
   left: -50px;
 }
 
 .round_line.four {
-  bottom: -450px;
+  bottom: -50px;
   left: -80px;
 }
 
@@ -22917,7 +22946,7 @@ a .h_head:hover {
 }
 
 .new_footer_top {
-  padding: 120px 0px 270px;
+  padding: 20px 0px 270px;
   position: relative;
 }
 
@@ -22991,7 +23020,32 @@ a .h_head:hover {
   width: 100%;
   height: 266px;
 }
+.contact_header {
+  position: relative;
+  top: 0px;
+  background: url("../img/seo/contact-bg2.png") no-repeat scroll center 0;
+  width: 100%;
+  height: 350px;
+  padding: 10px;
 
+}
+.contact_bg {
+  position: absolute;
+  bottom: 0;
+  background: url("../img/seo/footer_bg.png") no-repeat scroll center 0;
+  width: 100%;
+  height: 266px;
+}
+
+.contact_head{
+background-color: #3c0f73;
+  border: #cccccc;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
 .new_footer_top .footer_bg .footer_bg_one {
   background: url("../img/seo/car.png") no-repeat center center;
   width: 70px;
