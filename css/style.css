@@ -199,7 +199,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .f_p {
-  font-family: "Poppins", sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 /*=========== font-weight ==============*/
@@ -251,6 +251,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .d_p_color {
   color: #bdbed6 !important;
+}
+
+.d_p_color_y {
+    color: #fff001 !important;
 }
 
 .bg_color {
@@ -3608,9 +3612,15 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .agency_banner_img {
-  margin-left: -100px;
+  margin-left: 0px;
 }
 
+.agency_content_two {
+    border: #5e2ced solid 5px;
+    border-radius: 20px;
+    padding: 20px;
+
+}
 .agency_content_two .agency_banner_btn {
   color: #5e2ced;
   border-color: #fff;
@@ -5777,6 +5787,15 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   bottom: -191px;
   left: -50px;
 }
+.square_box.box_one_top {
+  background-image: -moz-linear-gradient(140deg, #290a59 0%, #3d57f4 100%);
+  background-image: -webkit-linear-gradient(140deg, #290a59 0%, #3d57f4 100%);
+  background-image: -ms-linear-gradient(140deg, #290a59 0%, #3d57f4 100%);
+  width: 382px;
+  height: 382px;
+  top:  91px;
+  left: -50px;
+}
 
 .square_box.box_two {
   background-image: -moz-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
@@ -5787,13 +5806,13 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   bottom: -116px;
   left: 250px;
 }
-.square_box.box_two-2 {
+.square_box.box_two_top {
   background-image: -moz-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
   background-image: -webkit-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
   background-image: -ms-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
   width: 235px;
   height: 235px;
-  top: -116px;
+  top: 116px;
   left: 250px;
 }
 
@@ -5809,6 +5828,18 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border-radius: 45px;
 }
 
+.square_box.box_three_bottom {
+    background-image: -moz-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    background-image: -webkit-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    background-image: -ms-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    opacity: 0.059;
+    right: -80px;
+    bottom: -60px;
+    width: 500px;
+    height: 500px;
+    border-radius: 45px;
+}
+
 .square_box.box_four {
   background-image: -moz-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
   background-image: -webkit-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
@@ -5820,12 +5851,23 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   height: 550px;
   border-radius: 45px;
 }
+.square_box.box_four_bottom {
+    background-image: -moz-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    background-image: -webkit-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    background-image: -ms-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
+    opacity: 0.059;
+    left: 150px;
+    bottom: -25px;
+    width: 550px;
+    height: 550px;
+    border-radius: 45px;
+}
 
 .saas_featured_info .saas_featured_item {
   color: #fff;
   border-radius: 4px;
-  padding: 50px 30px 50px 40px;
-  margin-bottom: 30px;
+  padding: 50px 30px 20px 40px;
+  margin-bottom: 20px;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -5874,7 +5916,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .saas_featured_info .saas_featured_content p {
-  color: #bdbed6;
+  color: #fff;
 }
 
 .saas_featured_info .f_img_one {
@@ -5902,7 +5944,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   top: -55px;
   z-index: -1;
 }
-
+.featured_content {
+    border: #fff001 solid 3px;
+    border-radius: 20px;
+}
 .saas_featured_info .f_img_two img {
   border-color: #49436f;
 }
@@ -20893,6 +20938,11 @@ a .h_head:hover {
   right: -500px;
 }
 
+.round_line.two_bottom {
+    bottom: -110px;
+    right: 120px;
+}
+
 .round_line.three {
   bottom: -88px;
   left: -50px;
@@ -23037,14 +23087,35 @@ a .h_head:hover {
   height: 266px;
 }
 
-.contact_head{
-background-color: #3c0f73;
-  border: #cccccc;
+.contact_head_b{
+  border: #4069eb solid 3px;
   border-radius: 15px;
   padding: 20px;
   position: relative;
   width: 100%;
   text-align: center;
+}
+.contact_head{
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.contact_head_h5{
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.contact_content{
+    background-color: #3c0f73;
+    border: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    text-align: center;
 }
 .new_footer_top .footer_bg .footer_bg_one {
   background: url("../img/seo/car.png") no-repeat center center;

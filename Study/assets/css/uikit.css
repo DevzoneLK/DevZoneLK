@@ -89,9 +89,9 @@
  * 3. Style
  */
     
-    :not(pre)>code,
-    :not(pre)>kbd,
-    :not(pre)>samp {
+     :not(pre)>code,
+     :not(pre)>kbd,
+     :not(pre)>samp {
         /* 1 */
         font-family: Consolas, monaco, monospace;
         /* 2 */
@@ -441,13 +441,13 @@
     /* Selection pseudo-element
  ========================================================================== */
     
-    ::-moz-selection {
+     ::-moz-selection {
         background: #39f;
         color: #fff;
         text-shadow: none;
     }
     
-    ::selection {
+     ::selection {
         background: #39f;
         color: #fff;
         text-shadow: none;
@@ -602,6 +602,13 @@
     }
     /* Hero
  ========================================================================== */
+    
+    @media (min-width: 960px) {
+        .text-right-md {
+            text-align: right;
+        }
+    }
+    /*==========================================================================*/
     
     .uk-heading-hero {
         font-size: 4rem;
@@ -6506,7 +6513,7 @@
  * Activate slide-out animation
  */
     
-    :not(.uk-offcanvas-flip)>.uk-offcanvas-content-animation {
+     :not(.uk-offcanvas-flip)>.uk-offcanvas-content-animation {
         left: 270px;
     }
     

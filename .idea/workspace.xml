@@ -2,11 +2,168 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d5d4938-42e9-4912-bbb2-8abc47698286" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Study/assets/images/courses/course-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/assets/images/courses/course-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/assets/images/courses/course-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/assets/images/courses/course-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/assets/images/courses/course-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/assets/images/courses/course-catagory-hero-6-c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/assets/images/emails/dynamic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/assets/images/emails/ecommerce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/assets/images/emails/static.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/assets/images/emails/welcome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coming-soon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/new/mockup/coming-soon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Blog-post-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Blog-post-video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Book-description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Books-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Browse-courses-single-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Course-all-tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Course-dhashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Course-intro-one.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Course-intro-three.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Course-intro-two.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Course-lesson-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Course-lesson-3-accordion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Course-lesson-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Course-lesson.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Course-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Course-resume.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Discussion-posts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Discussion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Homepage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Scripts-card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Scripts-description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Scripts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Scripts_single_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Study/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/css/uikit.css" beforeDir="false" afterPath="$PROJECT_DIR$/Study/assets/css/uikit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/backgrounds/banner-curve.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/backgrounds/course-dhashboard-bg-dark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/backgrounds/tab-border-left-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/backgrounds/tab-border-right-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/blog/blog-img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/blog/blog-img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/blog/blog-img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/blog/blog-img-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/blog/blog-img-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/blog/blog-vid-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/blog/blog-vid-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/blog/blog-vid-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/blog/blog-vid-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/courses/course-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/courses/course-catagory-hero-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/courses/course-catagory-hero-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/courses/course-catagory-hero-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/courses/course-lesson-icon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/courses/course-lesson-video-list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/courses/tags/css3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/courses/tags/html5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/dark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/authentication-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/authentication.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Book-Description.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Books.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Course-all-tags.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Course-intro-one.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Course-intro-two.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Course-lesson.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Course-list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Discussions-read.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Discussions.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Scripts-card.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Scripts-description.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Scripts-single.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/Scripts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/blog-post-single.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/blog-post-video.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/blog-video-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/blog-video-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/course-browse-course-single-page.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/course-browse-course.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/course-dhashboard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/course-lesson-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/pages-about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/pages-faq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/pages-help-post-read.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/pages-help-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/pages-help.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/pages-terms.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/ui-compounents.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/ui-elements.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/main/ui-helpers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/pages-about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/pages-faq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/pages-help.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/pages-terms.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/preview-admin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/preview-horizontal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/preview-landing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/demos/preview-main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Adobe Dreamweaver_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/AngularJS_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Atom Editor_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/C Programming_96px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/C++_96px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/CSS3_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Chat_48px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Chrome_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Drupal-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Firefox_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Html 5-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Joomla_96px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Nodejs_96px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Python_96px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Sublime Text_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Swift_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/UC Browser_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/Visual Studio_96px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/icons/WordPress_96px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/light.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/photo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/scripts/script-description-feature-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/scripts/script-description-feature-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/scripts/script-description-feature-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/scripts/script-description-feature-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/scripts/script-description-feature.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/scripts/script-hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/scripts/scritp-1-chaporta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/scripts/scritp-2-stock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/scripts/scritp-3-modeno.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/images/scripts/scritp-4-team.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/img/blog/img-1-big.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/img/brand/favicon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/assets/img/photo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/authentication-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/authentication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/blog-video-one.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/blog-video-two.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/books.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/course-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Study/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/index1dfd1dfd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/pages-about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/pages-faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/pages-help-post-read.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/pages-help-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/pages-help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/pages-terms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/profile-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/ui-components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/ui-elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/ui-helpers.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatwedo.html" beforeDir="false" afterPath="$PROJECT_DIR$/whatwedo.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,72 +178,67 @@
     <session id="1240598520">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.41" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.46" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
-          <entry key="html" value="5" />
+          <entry key="css" value="6" />
+          <entry key="html" value="8" />
           <entry key="js" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="5" />
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="8" />
           <entry key="JavaScript" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="729" />
-          <entry key="html" value="1733" />
+          <entry key="css" value="1193" />
+          <entry key="html" value="2219" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="729" />
-          <entry key="HTML" value="1733" />
+          <entry key="CSS" value="1193" />
+          <entry key="HTML" value="2219" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact-us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="141" column="50" selection-start-line="141" selection-start-column="50" selection-end-line="141" selection-end-column="50" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="174" column="26" selection-start-line="174" selection-start-column="26" selection-end-line="174" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services.html">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="132" column="4" lean-forward="true" selection-start-line="132" selection-start-column="4" selection-end-line="395" selection-end-column="14" />
+            <state relative-caret-position="310">
+              <caret line="23097" column="14" selection-start-line="23097" selection-start-column="14" selection-end-line="23097" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/whatwedo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="766">
-              <caret line="172" column="95" lean-forward="true" selection-start-line="172" selection-start-column="95" selection-end-line="172" selection-end-column="95" />
+            <state relative-caret-position="140">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -95,19 +247,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+        <entry file="file://$PROJECT_DIR$/index-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="5795" column="8" selection-start-line="5795" selection-start-column="8" selection-end-line="5795" selection-end-column="8" />
+            <state relative-caret-position="246">
+              <caret line="208" column="20" lean-forward="true" selection-start-line="208" selection-start-column="20" selection-end-line="211" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index-1.html">
+        <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="311" column="33" selection-start-line="311" selection-start-column="24" selection-end-line="311" selection-end-column="33" />
+            <state relative-caret-position="192">
+              <caret line="5" column="5471" selection-start-line="5" selection-start-column="5471" selection-end-line="5" selection-end-column="5471" />
+              <folding>
+                <element signature="e#58844#59044#2" expanded="true" />
+                <element signature="e#59252#59401#2" expanded="true" />
+                <element signature="e#59903#60049#2" expanded="true" />
+                <element signature="e#60350#60516#1" expanded="true" />
+                <element signature="e#72112#72355#2" expanded="true" />
+                <element signature="e#73222#73471#2" expanded="true" />
+                <element signature="e#100327#100517#2" expanded="true" />
+                <element signature="e#100563#100753#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,36 +288,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contact_hea</find>
-      <find>saas_banner_area</find>
-      <find>f_img_one</find>
-      <find>sec_pad</find>
-      <find>fun_fact_area</find>
-      <find>container</find>
-      <find>dk_bg_one</find>
-      <find>051441</find>
-      <find>fadeInUp</find>
-      <find>&lt;img class=&quot; pp_triangle t_left pt_120&quot; src=&quot;img/Home-color/triangle.png&quot; alt=&quot;&quot;&gt;</find>
-      <find>spinnerRotateone</find>
-      <find>section-4</find>
-      <find>pt_</find>
-      <find>flex-row-reverse</find>
-      <find>w_color</find>
-      <find>h6</find>
-      <find>t_color</find>
-      <find>h2</find>
-      <find>app_contact_info</find>
-      <find>pp_triangle</find>
-      <find>t_left</find>
-      <find>contact</find>
-      <find>contact_inf</find>
-      <find>contact_info</find>
-      <find>new_footer_top</find>
-      <find>two</find>
-      <find>round_line</find>
-      <find>footer_bg</find>
-      <find>contact_head</find>
+      <find>090a21090a21</find>
+      <find>app_service_area_two</find>
+      <find>box_four</find>
+      <find>box_one</find>
+      <find>s_featured_one</find>
+      <find>saas_featured_item</find>
+      <find>mb_40</find>
+      <find>saas_featured_content</find>
+      <find>btn_five</find>
+      <find>col-md-12</find>
+      <find>wow</find>
       <find>square_box</find>
+      <find>round_line</find>
+      <find>f_p</find>
+      <find>f_400</find>
+      <find>f_size_15</find>
+      <find>d_p_color</find>
+      <find>img-fluid</find>
+      <find>custom_container</find>
+      <find>navbar-expand-lg</find>
+      <find>header_area</find>
+      <find>p0</find>
+      <find>&lt;div class=&quot;col-lg-6 col-md-12  agency_content_two d-flex align-items-center &quot;&gt;</find>
+      <find>agency_content_two</find>
+      <find>d-flex</find>
+      <find>align-items-center</find>
+      <find>agency_banner_img</find>
+      <find>f_img_one</find>
+      <find>saas_featured_info</find>
+      <find>contact_head</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,11 +327,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/style1.css" />
-        <option value="$PROJECT_DIR$/index-1.html" />
         <option value="$PROJECT_DIR$/vendors/animation/animate.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/contact-us.html" />
         <option value="$PROJECT_DIR$/whatwedo.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index-1.html" />
+        <option value="$PROJECT_DIR$/contact-us.html" />
       </list>
     </option>
   </component>
@@ -176,7 +341,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="525" />
     <option name="y" value="108" />
     <option name="width" value="1293" />
@@ -197,6 +362,11 @@
             <path>
               <item name="DevZoneLK" type="b2602c69:ProjectViewProjectNode" />
               <item name="DevZoneLK" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DevZoneLK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DevZoneLK" type="462c0819:PsiDirectoryNode" />
+              <item name="vendors" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,12 +407,13 @@
       <workItem from="1574490587748" duration="602000" />
       <workItem from="1574605575582" duration="13861000" />
       <workItem from="1575312263657" duration="599000" />
-      <workItem from="1575483872742" duration="16150000" />
+      <workItem from="1575483872742" duration="23157000" />
+      <workItem from="1575604875798" duration="13455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65038000" />
+    <option name="totallyTimeSpent" value="85500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -318,55 +489,57 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery-3.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services.html" />
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="192">
+          <caret line="5" column="5471" selection-start-line="5" selection-start-column="5471" selection-end-line="5" selection-end-column="5471" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#58844#59044#2" expanded="true" />
+            <element signature="e#59252#59401#2" expanded="true" />
+            <element signature="e#59903#60049#2" expanded="true" />
+            <element signature="e#60350#60516#1" expanded="true" />
+            <element signature="e#72112#72355#2" expanded="true" />
+            <element signature="e#73222#73471#2" expanded="true" />
+            <element signature="e#100327#100517#2" expanded="true" />
+            <element signature="e#100563#100753#2" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="311" column="33" selection-start-line="311" selection-start-column="24" selection-end-line="311" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="5795" column="8" selection-start-line="5795" selection-start-column="8" selection-end-line="5795" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="141" column="50" selection-start-line="141" selection-start-column="50" selection-end-line="141" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="132" column="4" lean-forward="true" selection-start-line="132" selection-start-column="4" selection-end-line="395" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/whatwedo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="172" column="95" lean-forward="true" selection-start-line="172" selection-start-column="95" selection-end-line="172" selection-end-column="95" />
+        <state relative-caret-position="140">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="23097" column="14" selection-start-line="23097" selection-start-column="14" selection-end-line="23097" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="208" column="20" lean-forward="true" selection-start-line="208" selection-start-column="20" selection-end-line="211" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="174" column="26" selection-start-line="174" selection-start-column="26" selection-end-line="174" selection-end-column="26" />
         </state>
       </provider>
     </entry>
