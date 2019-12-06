@@ -7413,11 +7413,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .software_service_tab_content .software_service_item h5 {
   font: 600 17px/25px "Poppins", sans-serif;
-  color: #bdbed6 !important;
+  color: #fff001 !important;
 }
 
 .software_service_tab_content .software_service_item p {
   font-size: 15px;
+    color: #FFFFFF;
 }
 
 /*============== developer_product_area css ================*/
@@ -7589,6 +7590,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .app_service_item .app_icon {
+    color:#FFFFFF;
   font-size: 40px;
   line-height: 45px;
 }
@@ -7621,8 +7623,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .app_service_item .learn_btn_two {
-  color: #222d39;
-  font-size: 14px;
+  color: #fff001;
+  font-size: 16px;
 }
 
 .app_service_item .learn_btn_two:before {
@@ -23089,20 +23091,22 @@ a .h_head:hover {
 
 .contact_head_b{
   border: #4069eb solid 3px;
+    padding: 10px;
   border-radius: 15px;
-  padding: 20px;
   position: relative;
   width: 100%;
   text-align: center;
 }
 .contact_head{
+
     border-radius: 15px;
     padding: 20px;
     position: relative;
     width: 100%;
-    text-align: center;
+
 }
 .contact_head_h5{
+
     padding: 5px;
     position: relative;
     width: 100%;
