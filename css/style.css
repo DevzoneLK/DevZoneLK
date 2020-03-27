@@ -1638,6 +1638,18 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   width: 100%;
   position: absolute;
 }
+.sub-list-ol {
+    counter-reset: item;
+}
+
+.sub-list-li {
+    display: block;
+    font-size: 20px;
+}
+.sub-list-li:before{
+    content: counters(item, " . ") " ";
+    counter-increment: item;
+}
 
 .navbar .search_cart .shpping-cart .dropdown-menu li {
   background: #fff;
@@ -23110,7 +23122,6 @@ a .h_head:hover {
     padding: 5px;
     position: relative;
     width: 100%;
-    text-align: center;
 }
 .contact_content{
     background-color: #3c0f73;
